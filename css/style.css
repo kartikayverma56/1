@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'dragon'; /* Font family name */
+    src: url(/Dragonlord-WyJZn.otf) format('opentype'); /* Adjust the path accordingly */
+    font-weight: normal;
+    font-style: normal;
+}
 *,
 *:before,
 *:after {
@@ -15,9 +20,9 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font-family: 'dragon';
+  font-size: 'dragon';
+  line-height: 'dragon';
 }
 
 img {
@@ -29,7 +34,7 @@ img {
 body {
 	background: #fff;
 	color: #666666;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'dragon', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 }
@@ -56,12 +61,12 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: 800;
 	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #fff;
+	color: #FFF;
 }
 
 #countdown div span {
@@ -965,4 +970,8 @@ h2 {
 		border-radius: 10px;
 		padding: 25px 45px;
 	}
+}
+#countdown {
+    color: #fff;
+    letter-spacing: 5px; /* Adjust the letter spacing to your preference */
 }
